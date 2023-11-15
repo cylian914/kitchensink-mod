@@ -1,6 +1,6 @@
-package com.example.mixin;
+package fr.cylian91.Bedrock_horse.mixin;
 
-import com.example.Store;
+import fr.cylian91.Bedrock_horse.Store;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.EntityAttribute;

@@ -1,4 +1,4 @@
-package com.example;
+package fr.cylian91.Bedrock_horse;
 
 public class Store {
     public static double parentBase;

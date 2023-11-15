@@ -1,15 +1,15 @@
-package com.example;
+package fr.cylian91.Actionbar_stat;
 
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Bedrock_horse implements ModInitializer {
+public class Actionbar_stat implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
-    public static final Logger LOGGER = LoggerFactory.getLogger("bedrock_horse");
+    public static final Logger LOGGER = LoggerFactory.getLogger("actionbar_stat");
 
 	@Override
 	public void onInitialize() {
