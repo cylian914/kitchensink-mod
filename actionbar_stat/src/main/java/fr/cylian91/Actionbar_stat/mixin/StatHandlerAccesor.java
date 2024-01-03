@@ -31,7 +31,6 @@ public class StatHandlerAccesor {
     @Unique int i;
     @Inject(method = "onStatistics",locals = LocalCapture.CAPTURE_FAILHARD,at = @At(value = "INVOKE",target = "Lnet/minecraft/stat/StatHandler;setStat(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/stat/Stat;I)V"))
     private void getKilled(StatisticsS2CPacket packet, CallbackInfo ci, Iterator var2, Map.Entry entry, Stat stat, int i){
-        LOGGER.warn(stat.toString());
         if (stat.getName().contains("minecraft.custom:minecraft.mob_kills")) {
 
             this.i+=i;

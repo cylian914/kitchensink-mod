@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "actionbar_stat",
+	"version": "${version}",
+	"name": "Ridsou's biome",
+	"description": "Add biome from that (french) video: https://www.youtube.com/watch?v=pYy_5e-xIzo",
+	"authors": [
+		"cylian91"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/Ridsous_biome/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.cylian91.Ridsous_biome.Ridsous_biome"
+		]
+	},
+	"mixins": [
+      "Ridsous_biome.mixins.json"
+	],
+	"depends": {
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

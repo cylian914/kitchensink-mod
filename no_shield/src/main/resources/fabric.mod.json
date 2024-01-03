@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "noshield",
+	"version": "${version}",
+	"name": "no Shield",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"cylian91!"
+	],
+	"contact": {
+		"sources": "https://github.com/cylian914/kitchensink-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/noShield/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.cylian91.noShield.noShield"
+		]
+	},
+	"mixins": [
+      "noShield.mixins.json"
+	],
+	"depends": {
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

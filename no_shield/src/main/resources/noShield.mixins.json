@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "fr.cylian91.noShield.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "Block",
+    "Sword"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "Animation"
+  ]
+}
