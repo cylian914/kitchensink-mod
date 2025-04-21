@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "blackdim.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"dedicatedServerAllowMixin",
+		"registerCommand",
+		"serverAllowMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
