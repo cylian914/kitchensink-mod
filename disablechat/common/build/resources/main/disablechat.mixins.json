@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "fr.tess.disablechat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "disableMessage",
+    "MinecraftServerMixin",
+    "registerCommandMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

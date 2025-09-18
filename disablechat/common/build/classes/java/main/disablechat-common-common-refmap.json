@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "fr/tess/disablechat/mixin/MinecraftServerMixin": {
+      "stopServer": "Lnet/minecraft/server/MinecraftServer;method_3782()V"
+    },
+    "fr/tess/disablechat/mixin/disableMessage": {
+      "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;tryHandleChat(Ljava/lang/String;Ljava/lang/Runnable;)V": "Lnet/minecraft/class_3244;method_44337(Ljava/lang/String;Ljava/lang/Runnable;)V",
+      "handleChat": "Lnet/minecraft/class_3244;method_12048(Lnet/minecraft/class_2797;)V"
+    },
+    "fr/tess/disablechat/mixin/registerCommandMixin": {
+      "<init>": "Lnet/minecraft/class_2170;<init>(Lnet/minecraft/class_2170$class_5364;Lnet/minecraft/class_7157;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "fr/tess/disablechat/mixin/MinecraftServerMixin": {
+        "stopServer": "Lnet/minecraft/server/MinecraftServer;method_3782()V"
+      },
+      "fr/tess/disablechat/mixin/disableMessage": {
+        "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;tryHandleChat(Ljava/lang/String;Ljava/lang/Runnable;)V": "Lnet/minecraft/class_3244;method_44337(Ljava/lang/String;Ljava/lang/Runnable;)V",
+        "handleChat": "Lnet/minecraft/class_3244;method_12048(Lnet/minecraft/class_2797;)V"
+      },
+      "fr/tess/disablechat/mixin/registerCommandMixin": {
+        "<init>": "Lnet/minecraft/class_2170;<init>(Lnet/minecraft/class_2170$class_5364;Lnet/minecraft/class_7157;)V"
+      }
+    }
+  }
+}

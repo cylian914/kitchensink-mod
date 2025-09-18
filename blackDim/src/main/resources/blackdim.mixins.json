@@ -5,7 +5,9 @@
 	"mixins": [
 		"dedicatedServerAllowMixin",
 		"registerCommand",
-		"serverAllowMixin"
+		"serverAllowMixin",
+		"packetMixin",
+		"AAAAAMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -1,0 +1,4 @@
+v1	named	intermediary
+FIELD	fr/tess/disablechat/mixin/disableMessage	Lnet/minecraft/server/level/ServerPlayer;	player	field_14140
+FIELD	fr/tess/disablechat/mixin/registerCommandMixin	Lcom/mojang/brigadier/CommandDispatcher;	dispatcher	field_9832
+METHOD	fr/tess/disablechat/mixin/disableMessage	(Ljava/lang/String;Ljava/lang/Runnable;)V	tryHandleChat	method_44337

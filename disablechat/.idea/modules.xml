@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/disablechat.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/disablechat.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/disablechat.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/disablechat.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/disablechat.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/disablechat.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/disablechat.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/disablechat.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/disablechat.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/disablechat.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/disablechat.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/disablechat.neoforge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/disablechat.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/disablechat.neoforge.test.iml" />
+    </modules>
+  </component>
+</project>
